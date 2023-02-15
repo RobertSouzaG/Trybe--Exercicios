@@ -1,8 +1,16 @@
-.img {width:150px};
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  .width-and-height {
+    height: 50px;
+    width: 50px;
+  }
 
-.cavalo {color:blue;}
-
-.paragrafos {background-color: rgb(240, 240, 240);
-width:80%;
-}
-
+  .padding{ padding: 20px;}
+  .margin {margin: 30px;}
+  .border {border: 5px solid black}
