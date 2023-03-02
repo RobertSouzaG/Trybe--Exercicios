@@ -9,3 +9,5 @@ if (num1 || num2 || num3 % 2 === 0) {
 else {
     console.log(false)
 }
+
+
