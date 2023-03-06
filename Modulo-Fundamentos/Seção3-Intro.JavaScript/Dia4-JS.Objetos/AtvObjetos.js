@@ -4,7 +4,7 @@ let leitor ={
     idade: 21,
     livrosFavoritos: [
       {
-        titulo: 'O Pior Dia de Todos',
+            titulo: 'O Pior Dia de Todos',
         autor: 'Daniela Kopsch',
         editora: 'Tordesilhas',
       },
