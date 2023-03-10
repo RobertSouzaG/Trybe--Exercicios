@@ -32,14 +32,16 @@ sec2.appendChild(imagem);
 const lista = document.createElement('ul');
 sec3.appendChild(lista);
 const arr = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+
 for (let num in arr) {
     const listaN = document.createElement('li');
-    listaN.innerHtml = arr[num];
+    listaN.innerText = arr[num];
     lista.appendChild(listaN);
 }
 
-for (let index = 1; index <= 3; index += 1) {
+
+for (let index = 1; index <= 10; index += 1) {
     const elementH3 = document.createElement('h3');
-    elementH3.innerHTML = 'Show ' + index;
+    elementH3.innerHTML = 'Rodrigo ' + index;
     tag.appendChild(elementH3);
   }
